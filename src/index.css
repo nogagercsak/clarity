@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans text-gray-900 antialiased;
+  }
+}
+
+@layer utilities {
+  .gradient-water {
+    background: linear-gradient(135deg, #06B6D4 0%, #8B5CF6 100%);
+  }
+
+  .gradient-dark {
+    background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}
